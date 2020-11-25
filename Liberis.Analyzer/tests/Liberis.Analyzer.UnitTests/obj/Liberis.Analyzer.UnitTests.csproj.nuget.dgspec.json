@@ -1,0 +1,460 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Works\\OKR3\\CodingStandard\\_code\\sonacloud\\lb-analyzer\\Liberis.Analyzer\\tests\\Liberis.Analyzer.UnitTests\\Liberis.Analyzer.UnitTests.csproj": {}
+  },
+  "projects": {
+    "C:\\Works\\OKR3\\CodingStandard\\_code\\sonacloud\\lb-analyzer\\Liberis.Analyzer\\src\\Liberis.Analyzer.Core\\Liberis.Analyzer.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Works\\OKR3\\CodingStandard\\_code\\sonacloud\\lb-analyzer\\Liberis.Analyzer\\src\\Liberis.Analyzer.Core\\Liberis.Analyzer.Core.csproj",
+        "projectName": "Liberis.Analyzer.Core",
+        "projectPath": "C:\\Works\\OKR3\\CodingStandard\\_code\\sonacloud\\lb-analyzer\\Liberis.Analyzer\\src\\Liberis.Analyzer.Core\\Liberis.Analyzer.Core.csproj",
+        "packagesPath": "C:\\Users\\James.Yan\\.nuget\\packages\\",
+        "outputPath": "C:\\Works\\OKR3\\CodingStandard\\_code\\sonacloud\\lb-analyzer\\Liberis.Analyzer\\src\\Liberis.Analyzer.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Works\\OKR3\\CodingStandard\\_code\\sonacloud\\lb-analyzer\\Liberis.Analyzer\\NuGet.Config",
+          "C:\\Users\\James.Yan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\LocalNuGetFeed": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://ci.appveyor.com/nuget/liberis": {},
+          "https://liberis-dev.pkgs.visualstudio.com/_packaging/MyLiberis/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {
+              "C:\\Works\\OKR3\\CodingStandard\\_code\\sonacloud\\lb-analyzer\\Liberis.Analyzer\\src\\Liberis.Analyzer.SharedKernel\\Liberis.Analyzer.SharedKernel.csproj": {
+                "projectPath": "C:\\Works\\OKR3\\CodingStandard\\_code\\sonacloud\\lb-analyzer\\Liberis.Analyzer\\src\\Liberis.Analyzer.SharedKernel\\Liberis.Analyzer.SharedKernel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Ardalis.GuardClauses": {
+              "target": "Package",
+              "version": "[1.4.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Works\\OKR3\\CodingStandard\\_code\\sonacloud\\lb-analyzer\\Liberis.Analyzer\\src\\Liberis.Analyzer.Infrastructure\\Liberis.Analyzer.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Works\\OKR3\\CodingStandard\\_code\\sonacloud\\lb-analyzer\\Liberis.Analyzer\\src\\Liberis.Analyzer.Infrastructure\\Liberis.Analyzer.Infrastructure.csproj",
+        "projectName": "Liberis.Analyzer.Infrastructure",
+        "projectPath": "C:\\Works\\OKR3\\CodingStandard\\_code\\sonacloud\\lb-analyzer\\Liberis.Analyzer\\src\\Liberis.Analyzer.Infrastructure\\Liberis.Analyzer.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\James.Yan\\.nuget\\packages\\",
+        "outputPath": "C:\\Works\\OKR3\\CodingStandard\\_code\\sonacloud\\lb-analyzer\\Liberis.Analyzer\\src\\Liberis.Analyzer.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Works\\OKR3\\CodingStandard\\_code\\sonacloud\\lb-analyzer\\Liberis.Analyzer\\NuGet.Config",
+          "C:\\Users\\James.Yan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\LocalNuGetFeed": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://ci.appveyor.com/nuget/liberis": {},
+          "https://liberis-dev.pkgs.visualstudio.com/_packaging/MyLiberis/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Works\\OKR3\\CodingStandard\\_code\\sonacloud\\lb-analyzer\\Liberis.Analyzer\\src\\Liberis.Analyzer.Core\\Liberis.Analyzer.Core.csproj": {
+                "projectPath": "C:\\Works\\OKR3\\CodingStandard\\_code\\sonacloud\\lb-analyzer\\Liberis.Analyzer\\src\\Liberis.Analyzer.Core\\Liberis.Analyzer.Core.csproj"
+              },
+              "C:\\Works\\OKR3\\CodingStandard\\_code\\sonacloud\\lb-analyzer\\Liberis.Analyzer\\src\\Liberis.Analyzer.SharedKernel\\Liberis.Analyzer.SharedKernel.csproj": {
+                "projectPath": "C:\\Works\\OKR3\\CodingStandard\\_code\\sonacloud\\lb-analyzer\\Liberis.Analyzer\\src\\Liberis.Analyzer.SharedKernel\\Liberis.Analyzer.SharedKernel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Ardalis.EFCore.Extensions": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Autofac": {
+              "target": "Package",
+              "version": "[5.1.3, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "SQLite": {
+              "target": "Package",
+              "version": "[3.13.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Works\\OKR3\\CodingStandard\\_code\\sonacloud\\lb-analyzer\\Liberis.Analyzer\\src\\Liberis.Analyzer.SharedKernel\\Liberis.Analyzer.SharedKernel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Works\\OKR3\\CodingStandard\\_code\\sonacloud\\lb-analyzer\\Liberis.Analyzer\\src\\Liberis.Analyzer.SharedKernel\\Liberis.Analyzer.SharedKernel.csproj",
+        "projectName": "Liberis.Analyzer.SharedKernel",
+        "projectPath": "C:\\Works\\OKR3\\CodingStandard\\_code\\sonacloud\\lb-analyzer\\Liberis.Analyzer\\src\\Liberis.Analyzer.SharedKernel\\Liberis.Analyzer.SharedKernel.csproj",
+        "packagesPath": "C:\\Users\\James.Yan\\.nuget\\packages\\",
+        "outputPath": "C:\\Works\\OKR3\\CodingStandard\\_code\\sonacloud\\lb-analyzer\\Liberis.Analyzer\\src\\Liberis.Analyzer.SharedKernel\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Works\\OKR3\\CodingStandard\\_code\\sonacloud\\lb-analyzer\\Liberis.Analyzer\\NuGet.Config",
+          "C:\\Users\\James.Yan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\LocalNuGetFeed": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://ci.appveyor.com/nuget/liberis": {},
+          "https://liberis-dev.pkgs.visualstudio.com/_packaging/MyLiberis/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Works\\OKR3\\CodingStandard\\_code\\sonacloud\\lb-analyzer\\Liberis.Analyzer\\src\\Liberis.Analyzer.Web\\Liberis.Analyzer.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Works\\OKR3\\CodingStandard\\_code\\sonacloud\\lb-analyzer\\Liberis.Analyzer\\src\\Liberis.Analyzer.Web\\Liberis.Analyzer.Web.csproj",
+        "projectName": "Liberis.Analyzer.Web",
+        "projectPath": "C:\\Works\\OKR3\\CodingStandard\\_code\\sonacloud\\lb-analyzer\\Liberis.Analyzer\\src\\Liberis.Analyzer.Web\\Liberis.Analyzer.Web.csproj",
+        "packagesPath": "C:\\Users\\James.Yan\\.nuget\\packages\\",
+        "outputPath": "C:\\Works\\OKR3\\CodingStandard\\_code\\sonacloud\\lb-analyzer\\Liberis.Analyzer\\src\\Liberis.Analyzer.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Works\\OKR3\\CodingStandard\\_code\\sonacloud\\lb-analyzer\\Liberis.Analyzer\\NuGet.Config",
+          "C:\\Users\\James.Yan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\LocalNuGetFeed": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://ci.appveyor.com/nuget/liberis": {},
+          "https://liberis-dev.pkgs.visualstudio.com/_packaging/MyLiberis/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Works\\OKR3\\CodingStandard\\_code\\sonacloud\\lb-analyzer\\Liberis.Analyzer\\src\\Liberis.Analyzer.Infrastructure\\Liberis.Analyzer.Infrastructure.csproj": {
+                "projectPath": "C:\\Works\\OKR3\\CodingStandard\\_code\\sonacloud\\lb-analyzer\\Liberis.Analyzer\\src\\Liberis.Analyzer.Infrastructure\\Liberis.Analyzer.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Ardalis.ApiEndpoints": {
+              "target": "Package",
+              "version": "[0.9.4, )"
+            },
+            "Ardalis.ListStartupServices": {
+              "target": "Package",
+              "version": "[1.1.3, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.Web.LibraryManager.Build": {
+              "target": "Package",
+              "version": "[2.1.76, )"
+            },
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.3.3, )"
+            },
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[5.3.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Works\\OKR3\\CodingStandard\\_code\\sonacloud\\lb-analyzer\\Liberis.Analyzer\\tests\\Liberis.Analyzer.UnitTests\\Liberis.Analyzer.UnitTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Works\\OKR3\\CodingStandard\\_code\\sonacloud\\lb-analyzer\\Liberis.Analyzer\\tests\\Liberis.Analyzer.UnitTests\\Liberis.Analyzer.UnitTests.csproj",
+        "projectName": "Liberis.Analyzer.UnitTests",
+        "projectPath": "C:\\Works\\OKR3\\CodingStandard\\_code\\sonacloud\\lb-analyzer\\Liberis.Analyzer\\tests\\Liberis.Analyzer.UnitTests\\Liberis.Analyzer.UnitTests.csproj",
+        "packagesPath": "C:\\Users\\James.Yan\\.nuget\\packages\\",
+        "outputPath": "C:\\Works\\OKR3\\CodingStandard\\_code\\sonacloud\\lb-analyzer\\Liberis.Analyzer\\tests\\Liberis.Analyzer.UnitTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Works\\OKR3\\CodingStandard\\_code\\sonacloud\\lb-analyzer\\Liberis.Analyzer\\NuGet.Config",
+          "C:\\Users\\James.Yan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\LocalNuGetFeed": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://ci.appveyor.com/nuget/liberis": {},
+          "https://liberis-dev.pkgs.visualstudio.com/_packaging/MyLiberis/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Works\\OKR3\\CodingStandard\\_code\\sonacloud\\lb-analyzer\\Liberis.Analyzer\\src\\Liberis.Analyzer.Web\\Liberis.Analyzer.Web.csproj": {
+                "projectPath": "C:\\Works\\OKR3\\CodingStandard\\_code\\sonacloud\\lb-analyzer\\Liberis.Analyzer\\src\\Liberis.Analyzer.Web\\Liberis.Analyzer.Web.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.6.1, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.14.0, )"
+            },
+            "ReportGenerator": {
+              "target": "Package",
+              "version": "[4.5.6, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.1, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

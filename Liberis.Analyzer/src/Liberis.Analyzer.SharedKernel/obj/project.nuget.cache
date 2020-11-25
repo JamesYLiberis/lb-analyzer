@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Qdr7a2HzPIdIjOxlw8SK1O5v2DQ7fosrPwu41s1qIHl4fIthUkI8QQ/C7RFsQFkBgwY+xfa+iHT7y/U1Xw2YEA==",
+  "success": true,
+  "projectFilePath": "C:\\Works\\OKR3\\CodingStandard\\_code\\sonacloud\\lb-analyzer\\Liberis.Analyzer\\src\\Liberis.Analyzer.SharedKernel\\Liberis.Analyzer.SharedKernel.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\James.Yan\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\James.Yan\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,2 @@
+exclude:
+- .*/src\Liberis.Analyzer.Web\wwwroot\lib\**\*
