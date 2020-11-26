@@ -8,7 +8,7 @@ namespace Liberis.Analyzer.Core.Services
 {
     public class ItemCompletedEmailNotificationHandler : IHandle<ToDoItemCompletedEvent>
     {
-        private  IEmailSender _emailSender;
+        private readonly IEmailSender _emailSender;
 
         public ItemCompletedEmailNotificationHandler(IEmailSender emailSender)
         {
@@ -20,6 +20,7 @@ namespace Liberis.Analyzer.Core.Services
         public async Task Handle(ToDoItemCompletedEvent domainEvent)
         {
             Guard.Against.Null(domainEvent, nameof(domainEvent));
+            int gg = 1;
 
             await _emailSender.SendEmailAsync("test@test.com", "test@test.com", $"{domainEvent.CompletedItem.Title} was completed.", domainEvent.CompletedItem.ToString());
         }
