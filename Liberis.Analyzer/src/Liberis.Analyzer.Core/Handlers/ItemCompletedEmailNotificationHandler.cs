@@ -8,7 +8,7 @@ namespace Liberis.Analyzer.Core.Services
 {
     public class ItemCompletedEmailNotificationHandler : IHandle<ToDoItemCompletedEvent>
     {
-        private readonly IEmailSender _emailSender;
+        private  IEmailSender _emailSender;
 
         public ItemCompletedEmailNotificationHandler(IEmailSender emailSender)
         {
